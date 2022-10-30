@@ -62,20 +62,6 @@ Location header: http://localhost:8080/api/publications
 
 Run the server and browse to localhost:8080/swagger-ui.html
 
-# About Spring Boot
-
-Spring Boot is an "opinionated" application bootstrapping framework that makes it easy to create new RESTful services (among other types of applications). It provides many of the usual Spring facilities that can be configured easily usually without any XML. In addition to easy set up of Spring Controllers, Spring Data, etc. Spring Boot comes with the Actuator module that gives the application the following endpoints helpful in monitoring and operating the service:
-
-**/publications** Shows “publications” information for the current application.
-
-**/researcher** Shows application researcher information.
-
-**/types** Displays types info.
-
-**/login** To login application.
-
-# Running the project with Neo4j
-
 Here is what you would do to back the services with Neo4j: 
 
 ### In pom.xml add: 
